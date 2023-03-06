@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petsitter</title>
+    <link rel="preload" href="css/styles/normalize.css" as="style">
+    <link rel="stylesheet" href="css/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="Css/styles/styles.css" as="style">
+
+    <link href="Css/styles/styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+      <h1 class="titulo"> PETSITTER </h1>   
+    </header>
+<div class="nav-bg">
+    <nav class="navegacion-principal contenedor"> <!--Vamos a tener que cambiar esto por el menu de listas para hacer interactivo el menu-->
+        <ul class="navegacion-lista">
+            <li><a href="spa.html">Spa</a></li>
+            <li><a href="#vet">Veterinaria</a></li>
+            <li><a href="#tienda">Tienda</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <!-- 
+        <a href="#">Spa</a>
+        <a href="#">Consulta Veterinaria</a>
+        <a href="#">Productos</a>
+        <a href="#">Cafeteria</a> -->
+    </nav>
+    <!-- Barra de navegacion ver si se puede usar lista y aplciar JS -->
+</div>
+
+    <section class="hero"> <!--COntenido central de la foto-->
+    <div class="contenido-hero">
+     <h2>Lo mejor para nuestros hijos</h2>
+     <!--Icono de ubicacion-->
+     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="11" r="3" />
+        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+      </svg>
+    
+     <p>La Serena, Chile</p>
+     <a class="boton" href="#">Contactar</a>
+    </div>
+    </section>
+   
+<main class="contenedor sombra">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios">
+        <section class="servicio">
+            <h3>Spa Canino y Felino</h3>
+            <div class="icons"><!--Como le pongo enlace a un incono??-->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-scissors" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="6" cy="7" r="3" />
+            <circle cx="6" cy="17" r="3" />
+            <line x1="8.6" y1="8.6" x2="19" y2="19" />
+            <line x1="8.6" y1="15.4" x2="19" y2="5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bath" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 12h16a1 1 0 0 1 1 1v3a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-3a1 1 0 0 1 1 -1z" />
+            <path d="M6 12v-7a2 2 0 0 1 2 -2h3v2.25" />
+            <path d="M4 21l1 -1.5" />
+            <path d="M20 21l-1 -1.5" />
+                </svg>
+            </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ad aperiam pariatur in quaerat harum esse odit.</p>    
+           
+        </section>
+        <section class="servicio">
+            <h3>Box Veterinario</h3>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stethoscope" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5h0a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+                <path d="M8 15a6 6 0 1 0 12 0v-3" />
+                <path  d="M11 3v2" />
+                <path  d="M6 3v2" />
+                <circle cx="20" cy="10" r="2" />
+                </svg>
+            </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ad aperiam pariatur in quaerat harum esse odit.</p>    
+            
+        </section>
+        <section class="servicio">
+            <h3>Tienda/Productos Premium</h3>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dog-bowl" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 15l5.586 -5.585a2 2 0 1 1 3.414 -1.415a2 2 0 1 1 -1.413 3.414l-3.587 3.586" />
+                <path d="M12 13l-3.586 -3.585a2 2 0 1 0 -3.414 -1.415a2 2 0 1 0 1.413 3.414l3.587 3.586" />
+                <path d="M3 20h18c-.175 -1.671 -.046 -3.345 -2 -5h-14c-1.333 1 -2 2.667 -2 5z" />
+                </svg>
+            </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ad aperiam pariatur in quaerat harum esse odit.</p>   
+            
+            </section>
+    </div>
+    <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+            <legend>Contactanos llenando todos los campos</legend>
+            <div class="contenedor-campos">
+            <div class="campo">
+                <label>Nombre</label>
+                <input class="input-text" type="text" placeholder="Tu nombre">
+            
+            </div>
+            <div class="campo">
+                <label>Telefono</label>
+                <input class="input-text" type="tel" placeholder="Tu telefono">
+            </div>
+            <div class="campo">
+                <label>Correo</label>
+                <input class="input-text" type="email" placeholder="Tu correo">
+            </div>
+            <div class="campo">
+                <label>Mensaje</label>
+                <textarea class="input-text"></textarea>
+            </div>
+        </div>
+            <div class="boton-enviar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+            </fieldset>
+        </form>
+    </section>
+</main>
+  <footer>
+    <p>Todos los derechos reservados. 8Nucleos</p>
+  </footer>
+    
+
+
+    
+</body>
+</html> 
