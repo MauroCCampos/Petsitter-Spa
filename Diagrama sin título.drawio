@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T20:21:06.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8wXz-w12OQJLAokC74FK" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T20:28:59.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ekXqqt7sU8tnRoMeZDIq" version="21.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="2205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
@@ -221,6 +221,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="py4-glFeh2ibCfwgSi2s-56" target="py4-glFeh2ibCfwgSi2s-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="py4-glFeh2ibCfwgSi2s-56" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Listado Clinicas&lt;/font&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;align=center;spacing=9;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1;lucidId=Z7g~fSgXq1W0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1330" y="1297" width="120" height="90" as="geometry" />
         </mxCell>
@@ -275,8 +278,11 @@
             <mxPoint x="1271" y="1342" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.457;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="py4-glFeh2ibCfwgSi2s-69" target="py4-glFeh2ibCfwgSi2s-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="py4-glFeh2ibCfwgSi2s-69" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Clientes Clinicas&lt;/font&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=cylinder3;size=4;anchorPointDirection=0;boundedLbl=1;fontSize=16.7;fontColor=#333333;align=center;spacing=3.8;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1;lucidId=_Bh~envPogOS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1180" y="1297" width="90" height="90" as="geometry" />
+          <mxGeometry x="1180" y="1296" width="90" height="93" as="geometry" />
         </mxCell>
         <mxCell id="py4-glFeh2ibCfwgSi2s-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="py4-glFeh2ibCfwgSi2s-70" target="py4-glFeh2ibCfwgSi2s-69">
           <mxGeometry relative="1" as="geometry" />
@@ -343,6 +349,27 @@
         </mxCell>
         <mxCell id="py4-glFeh2ibCfwgSi2s-96" value="3" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1318" y="780" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-102" value="Larrain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="1490" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-103" value="Especie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="py4-glFeh2ibCfwgSi2s-102">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-104" value="Macho/Hembra" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="py4-glFeh2ibCfwgSi2s-102">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-105" value="Tipo Ecografía" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="py4-glFeh2ibCfwgSi2s-102">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.05;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="py4-glFeh2ibCfwgSi2s-107" target="py4-glFeh2ibCfwgSi2s-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-107" value="Buscador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="1196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="py4-glFeh2ibCfwgSi2s-109" value="Criterios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1610" y="1192" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
